@@ -1,9 +1,9 @@
 const express = require("express");
-
+const path = require("path");
 const mongoose = require("mongoose");
 const routes = require("./routes");
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
@@ -16,7 +16,15 @@ if (process.env.NODE_ENV === "production") {
 app.use(routes);
 
 // Connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/reactreadinglist");
+
+
+mongoose.connect
+(
+  process.env.MONGODB_URI || "mongodb://user1:password1@ds141238.mlab.com:41238/heroku_6c6bl2x6", 
+  { 
+    useMongoClient: true 
+  }
+  );
 
 // Start the API server
 app.listen(PORT, function() {
