@@ -5,14 +5,14 @@ import { Link } from "react-router-dom";
 function Nav() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <Link className="navbar-brand" to="/">
+      <Link className="navbar-brand" to="/search">
         Bookster
       </Link>
       <div>
         <ul className="navbar-nav">
           <li className="nav-item">
             <Link
-              to="/"
+              to="/search"
               className={
                 window.location.pathname === "/" || window.location.pathname === "/search"
                   ? "nav-link active"
@@ -27,7 +27,7 @@ function Nav() {
               to="/books"
               className={window.location.pathname === "/books" ? "nav-link active" : "nav-link"}
             >
-              Search
+              Saved Books
             </Link>
           </li>
           <li className="nav-item">
