@@ -1,0 +1,44 @@
+.jumbotron{
+    margin-bottom: 0px;
+    background-color: transparent;
+}
+span.myBlueB{
+    color:deepskyblue;
+    font-weight: bold;
+    
+    }
+ span.myRedO{
+    color:#FF0000;
+    font-weight: bold;
+
+ }
+ span.myYellowO{
+    color: gold;
+    font-weight: bold;
+
+ }
+ span.myGreenK{
+    color:green;
+    font-weight: bold;
+
+ }
+ span.myPurpleT{
+    color:purple;
+    font-weight: bold;
+
+ }
+ span.myBlueS{
+    color:deepskyblue;
+    font-weight: bold;
+
+ }
+ span.myPinkE{
+    color:deeppink;
+    font-weight: bold;
+
+ }
+ span.myYellowR{
+    color:yellowgreen;
+    font-weight: bold;
+
+ }

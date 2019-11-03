@@ -1,0 +1,36 @@
+form.search {
+  overflow: auto;
+  margin-bottom: 10px;
+}
+
+form.search button[type="submit"] {
+  float: right;
+  margin-top: 10px;
+}
+#searchContainer{
+  margin-top: 0px;
+}
+#searchTerm{
+  width: 600px;
+  justify-content: center;
+  align-content: center;
+  margin-top: 0px;
+border-radius: 15px;
+border: .5px gray solid;
+padding: 5px;
+outline: none;
+
+}
+
+#submitButton{
+  border-radius: 15px;
+border: .5px gray solid;
+padding: 5px;
+outline: none;
+margin-left: 2px;
+}
+
+#bookSearch{
+  margin-top: 0px;
+
+}
