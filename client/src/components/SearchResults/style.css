@@ -1,0 +1,9 @@
+.list-group-item, .search-results{
+    justify-content: left;
+    align-content: left;
+}
+
+
+.img-fluid{
+    float: left;
+}
